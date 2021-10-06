@@ -1,0 +1,567 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin:0px
+}
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.boost {
+    
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/4626845dcf8258b993473eab/bg.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 805px;
+}
+
+.header {
+    margin-top: 20px;
+    
+    
+}
+
+.header input {
+    background-color:transparent;
+    appearance: none;
+    border-color: rgb(255,255,255);
+    cursor: text;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25.6px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 1px;
+}
+
+.header span {
+    font-size: 24px;
+    color:rgb(255,255,255);
+    font-weight: 400;
+    line-height: 24px;
+    white-space: nowrap;
+    
+}
+
+.text {
+   flex-direction: column;
+}
+
+.text h2 {
+    color: rgb(255,255,255);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 33px;
+    text-align: left;
+    text-transform: uppercase;
+    max-width: 570px;
+}
+.text h5 {
+    color: rgb(255,255,255);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    width: 500px;
+     
+}
+
+.text p {
+    color: rgb(255,255,255);
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: left;
+   
+}
+
+.text a {
+    color: rgb(255,255,255);
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: left;
+    max-width: 320px;
+}
+
+.hosting-text {
+    align-items: center;
+}
+
+.hosting-text h1 {
+    color: rgb(77,77,77);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 544px;
+}
+
+.hosting-text h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 544px;
+    color: rgb(176, 153,217);
+}
+
+.hosting-text p {
+    color: rgb(17,17,17);
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: center;
+    width: 445px;
+    margin-left: 60px;
+}
+
+.nice-boxes {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nice-boxes h5 {
+    color: rgb(17,17,17);
+    flex-shrink: 0;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nice-boxes p {
+    color: rgb(128,128,128);
+    flex-shrink: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 25.6px;
+    text-align: center;
+    width: 300px;
+    justify-content: center;
+}
+
+.nice-boxes small {
+    color: rgb(176, 153,217);
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 48px;
+    line-height: 0px;
+    text-align: center;
+    width: 48px;
+}
+.unlimited {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+    position: relative;
+}
+
+.unmetered {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    background-color:#ded4f0 ;
+    border-radius: 40px;
+}
+
+.domain {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+}
+
+.icon {
+    height: 88px;
+    width: 88px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    margin-left: 150px;
+    
+
+}
+
+.icon span {
+    font-size: 48px;
+    padding: 22px;
+    color: rgb(176, 153,217);
+    fill: rgb(176, 153,217);
+    height: 44px;
+    width: 44px;
+    line-height: 0px;
+    text-align: left;
+    justify-content: center;
+}
+
+.technology {
+    /* display: flex; */
+    
+}
+
+.leadership {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.leadership h2 {
+    color: rgb(17,17,17);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    line-height: 33px;
+    text-align: left;
+    text-transform: uppercase;
+    max-width: 600px;
+
+}
+
+.leadership h4 {
+    color: rgb(17,17,17);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.leadership p {
+    color: rgb(17,17,17);
+    flex-shrink: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 25.6px;
+    text-align: left;
+    width: 490px;
+}
+.questions {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.read-more {
+    background-color: rgb(176, 153,217);
+    border-color: rgba(0,0,0,0);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 25.6px;
+    padding: 10px 30px;
+    text-align: center;
+    height: 46px;
+    vertical-align: middle;
+    width: 149px;
+    color: #fff;
+}
+
+.read-more:hover {
+    background-color: #84759e;
+}
+
+
+.questions h2 {
+    color: rgb(176, 153,217);
+    flex-shrink: 0;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 33px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 373px;
+}
+
+.questions h4 {
+    color: rgb(17,17,17);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    width: 428px;
+    margin-bottom: 100px;
+}
+
+.questions h6 {
+    color: rgb(17,17,17);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 550px;
+}
+
+.team {
+    display: flex;
+    background-color: rgb(176, 153,217);
+
+}
+.lee {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+}
+
+.perry {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+}
+
+.hudson {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+}
+.lee-photo {
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/4b6d7d80c7ea5b32a57d3e3f/pexels-photo-6730458.jpeg?version=);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 118px;
+    width: 118px;
+    border-radius: 50%;
+    
+}
+
+.perry-photo {
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/71afcb8117dd5111acbe4782/pexels-photo-2468487.jpeg?version=);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 118px;
+    width: 118px;
+    border-radius: 50%;
+}
+
+.hudson-photo {
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/89807c4e6fd95f62a4fef743/pexels-photo-3375230.jpeg?version=);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 118px;
+    width: 118px;
+    border-radius: 50%;
+}
+
+.team h6 {
+    color: rgb(17,17,17);
+    flex-shrink: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: center;
+    width: 170px;
+}
+
+.team p {
+    color: rgb(17,17,17);
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: center;
+    width: 170px;
+}
+
+.sixofit .row {
+   justify-content: center;
+   
+   
+}
+
+.six {
+    display: flex;
+    margin-right: 30px;
+}
+
+.six h2 {
+    color: rgb(17,17,17);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: left;
+    width: 14px;
+}
+
+.six p {
+    color: rgb(102,102,102);
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: justify;
+    width: 331.5px;
+    margin-left: 30px;
+}
+
+.person-cards {
+    background-color: #ded4f0;
+    height: 600px;
+    display: flex;
+}
+
+.person-cards img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 130px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.nill-smith {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    height: 375px;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.merry-kinnly {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    height: 375px;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-left: 20px;
+    
+}
+
+.person-cards p {
+    color: rgb(17,17,17);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 38.4px;
+    text-align: center;
+    width: 330px;
+}
+
+.person-cards h6 {
+    color: rgb(17,17,17);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 284px;
+}
+
+.person-cards h5 {
+    color: rgb(176, 153,217);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    width: 284px;
+}
+
+.border {
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.staff-photo img {
+    height: 240px;
+    width: 240px;
+    border-radius: 20%;
+    flex-shrink: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.staff span {
+    color: rgb(222,212,240);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    text-align: center;
+    
+}
+
+
+.staff h3 {
+    color: rgb(17,17,17);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.staff p  {
+    color: rgb(17,17,17);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    text-align: center;
+    width: 313px;
+}
+
+.staff-sec {
+    display: flex;
+    
+}
+.brown {
+    flex-basis: 33%;
+
+}
+
+.richmond {
+    flex-basis: 33%;
+}
+
+.greenfield {
+    flex-basis: 33%;
+}
