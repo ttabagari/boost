@@ -28,6 +28,8 @@ body {
 
 .header {
   margin-top: 20px;
+  
+ 
 }
 
 .header input {
@@ -132,7 +134,7 @@ body {
 
 .nice-boxes {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 359px;
 }
 
@@ -145,7 +147,6 @@ body {
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 70px;
 }
 
 .nice-boxes p {
@@ -163,7 +164,7 @@ body {
 .nice-boxes small {
   color: rgb(176, 153, 217);
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 40px;
   height: 48px;
   line-height: 0px;
   text-align: center;
@@ -172,29 +173,32 @@ body {
 .unlimited {
   display: flex;
   flex-direction: column;
-  flex-basis: 30%;
+  flex-basis: 28%;
   background-color: #f2f2f2;
   border-radius: 40px;
-  position: relative;
+
   justify-content: center;
+  align-items: center;
 }
 
 .unmetered {
   display: flex;
   flex-direction: column;
-  flex-basis: 30%;
+  flex-basis: 28%;
   background-color: #ded4f0;
   border-radius: 40px;
   justify-content: center;
+  align-items: center;
 }
 
 .domain {
   display: flex;
   flex-direction: column;
-  flex-basis: 30%;
+  flex-basis: 28%;
   background-color: #f2f2f2;
   border-radius: 40px;
   justify-content: center;
+  align-items: center;
 }
 
 .icon {
@@ -203,14 +207,14 @@ body {
   background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
-  position: absolute;
-  margin-left: 150px;
-  margin-bottom: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon span {
   font-size: 48px;
-  padding: 22px;
+
   color: rgb(176, 153, 217);
   fill: rgb(176, 153, 217);
   height: 44px;
@@ -497,6 +501,12 @@ body {
   border-radius: 30px;
 }
 
+.staff {
+  min-height: 668px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 .staff-photo img {
   height: 240px;
   width: 240px;
@@ -538,25 +548,68 @@ body {
 
 .staff-sec {
   display: flex;
+  justify-content: space-between;
 }
 .brown {
-  flex-basis: 33%;
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
 .richmond {
-  flex-basis: 33%;
-}
-
-.greenfield {
-  flex-basis: 33%;
-}
-
-.partnership {
-  background-color: rgb(176, 153, 217);
+  flex-basis: 20%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #84759e;
+  border-radius: 40px;
+  padding: 30px;
 }
 
+.richmond h3 {
+  color: rgb(255, 255, 255);
+}
+.richmond p {
+  color: rgb(255, 255, 255);
+}
+.richmond .social-media span {
+  color: rgb(255, 255, 255);
+}
+.greenfield {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.social-media {
+  display: flex;
+  
+}
+
+.social-media span {
+  color: rgb(17, 17, 17);
+  font-size: 24px;
+  height: 27px;
+  width: 27px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 80px;
+}
+.partnership {
+  background-color: rgb(176, 153, 217);
+  
+}
+.partnership .row {
+  justify-content: center;
+}
 .partnership h2 {
   color: rgb(17, 17, 17);
   font-size: 30px;
@@ -567,20 +620,24 @@ body {
   text-align: center;
   text-transform: uppercase;
   width: 650px;
-  justify-content: center;
+  
+  
 }
 
 .white-box {
   box-shadow: rgba(81, 91, 103, 0.2) 5px 5px 31px 0px;
   height: 701px;
   width: 768px;
-  justify-content: center;
   background-color: #f4f6fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tips {
   display: flex;
   flex-direction: column;
+  
 }
 
 .tip {
@@ -591,6 +648,8 @@ body {
   background-color: rgb(255, 255, 255);
   border-color: rgba(0, 0, 0, 0);
   margin-top: 1px;
+  padding: 0 10px;
+  align-items: center;
 }
 
 .tip p {
@@ -616,12 +675,18 @@ body {
 .register {
   background-color: #f4f6fb;
 }
-
+.register-forms {
+  display: flex;
+}
 .registration {
   flex-basis: 60%;
+  display: flex;
   flex-direction: column;
 }
 
+.date-num {
+  display: flex;
+}
 .article {
   flex-basis: 40%;
 }
